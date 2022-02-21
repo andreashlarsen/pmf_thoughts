@@ -1,6 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+"""
+script used in this twitter thread discussion: 
+https://twitter.com/agrossfield/status/1410252908248145923
+"""
+
 ## generate collective variable r (CV1) and shifted CV rr=r+shift (CV2)
 shift=1
 r=np.linspace(0.5,4,100) # CV1
